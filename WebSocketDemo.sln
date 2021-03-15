@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{71049986-56D0-4B0A-82BD-45B718825C88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketClientSync", "WebSocketClientSync\WebSocketClientSync.csproj", "{45FB5014-955C-40DA-902B-5EF8D5335F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServerAsync", "WebSocketServerAsync\WebSocketServerAsync.csproj", "{78C3F7BE-3A99-4440-8559-C5406EF8317E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketClientAsync", "WebSocketClientAsync\WebSocketClientAsync.csproj", "{58C5777F-AFD5-4BA2-92AA-3C25EEC13509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{71049986-56D0-4B0A-82BD-45B718825C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71049986-56D0-4B0A-82BD-45B718825C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71049986-56D0-4B0A-82BD-45B718825C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FB5014-955C-40DA-902B-5EF8D5335F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FB5014-955C-40DA-902B-5EF8D5335F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FB5014-955C-40DA-902B-5EF8D5335F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FB5014-955C-40DA-902B-5EF8D5335F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C3F7BE-3A99-4440-8559-C5406EF8317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C3F7BE-3A99-4440-8559-C5406EF8317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C3F7BE-3A99-4440-8559-C5406EF8317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C3F7BE-3A99-4440-8559-C5406EF8317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C5777F-AFD5-4BA2-92AA-3C25EEC13509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C5777F-AFD5-4BA2-92AA-3C25EEC13509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C5777F-AFD5-4BA2-92AA-3C25EEC13509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C5777F-AFD5-4BA2-92AA-3C25EEC13509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
